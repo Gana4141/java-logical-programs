@@ -9,7 +9,7 @@ public class ArraysDuplicateElements
 
         int[] numbers = {10, 20, 30, 20, 40, 10,50, 50};
 
-        System.out.println("Duplicate elements:");
+        System.out.println("The Elements dublicates are this ");
 
         for (int i = 0; i < numbers.length; i++) 
         {
