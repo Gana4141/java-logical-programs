@@ -9,10 +9,10 @@ public class GCDOfTwoNumbers {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter first number: ");
+        System.out.print("enter the first no ");
         int num1 = scanner.nextInt();
 
-        System.out.print("Enter second number: ");
+        System.out.print("enter the second no : ");
         int num2 = scanner.nextInt();
 
         int gcd = 1;
