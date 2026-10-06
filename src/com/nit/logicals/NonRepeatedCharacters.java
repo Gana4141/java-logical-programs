@@ -9,7 +9,7 @@ public class NonRepeatedCharacters
     public static void main(String[] args) 
     {
 
-        String str = "programming";
+        String str = "December";
 
         Map<Character, Integer> map = new HashMap<>();
 
