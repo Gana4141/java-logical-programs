@@ -6,7 +6,7 @@ public class DublicateCharacterString
 	
 	public static void main(String[] args)
 	{
-	duplicateCharacterCount("Learn Java Programming");
+	duplicateCharacterCount("Data anayastics");
 	}
    public static void duplicateCharacterCount(String inputString)
    {

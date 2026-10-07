@@ -10,7 +10,7 @@ System.out.print("Enter a string with spaces: ");
 String input = scanner.nextLine();
 
 String stringWithoutSpaces = removeSpaces(input); 
-System.out.println("String without spaces: " +
+System.out.println("no space in the string :" +
 stringWithoutSpaces);
 }
 public static String removeSpaces(String str)
