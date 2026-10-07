@@ -7,7 +7,7 @@ public static void main(String[] args)
 { 
 	int number = 123435;
 int sumOfDigits = calculateSumOfDigits(number);
-System.out.println("Sum of digits of " + number + " is: " +sumOfDigits);
+System.out.println("sum of numbers " + number + " is: " +sumOfDigits);
 }
 public static int calculateSumOfDigits(int number)
 { 
