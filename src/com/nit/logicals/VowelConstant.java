@@ -25,7 +25,7 @@ consonants++;
 }
 }
 }
-System.out.println("Vowels : " + vowels);
-System.out.println("Consonants : " + consonants);
+System.out.println("Vowels  alphabhets count : " + vowels);
+System.out.println("Consonants  alphaabhets count : " + consonants);
 }
 }
