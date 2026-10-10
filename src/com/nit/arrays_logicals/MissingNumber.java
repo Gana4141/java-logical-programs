@@ -18,6 +18,6 @@ public class MissingNumber {
 
         long missingNumber = total - sum;
 
-        System.out.println("Missing Number = " + missingNumber);
+        System.out.println("Missing Number  from arrys = " + missingNumber);
     }
 }
