@@ -5,10 +5,10 @@ public class MergeTwoArrays
 	public static void main(String[] args) 
 	{
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter first array size: ");
+        System.out.print("enter the 1 first arrays size : ");
         int size1 = scanner.nextInt();
         int[] arr1 = new int[size1];
-        System.out.println("Enter first array elements:");
+        System.out.println("enter the 2nd arrays size :");
         for (int i = 0; i < size1; i++) {
             arr1[i] = scanner.nextInt();
         }
@@ -36,7 +36,7 @@ public class MergeTwoArrays
             mergedArray[size1 + i] = arr2[i];
         }
 
-        System.out.println("Merged array:");
+        System.out.println("combined arrays :");
 
         for (int i = 0; i < mergedArray.length; i++) {
             System.out.print(mergedArray[i] + " ");
