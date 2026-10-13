@@ -9,7 +9,7 @@ public static void main(String[] args)
 	
 System.out.print("Enter a string: ");
 String input = scanner.nextLine();
-System.out.println("Unique characters in \"" + input + "\":");
+System.out.println("Enter the Unique characters  \"" + input + "\":");
 printUniqueCharacters(input);
 }
 
