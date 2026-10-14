@@ -41,8 +41,8 @@ public class HashCode
         System.out.println("student1.equals(student2): " + student1.equals(student2));
 
         System.out.println("student1.equals(student3): " + student1.equals(student3));
-        System.out.println("HashCode of student1: "+ student1.hashCode());
-        System.out.println("HashCode of student2: "+ student2.hashCode());
-        System.out.println("HashCode of student3: "+ student3.hashCode());
+        System.out.println("student 1 hashcode "+ student1.hashCode());
+        System.out.println("student 2 hashcode "+ student2.hashCode());
+        System.out.println("student 3 hashcode "+ student3.hashCode());
     }
 }
