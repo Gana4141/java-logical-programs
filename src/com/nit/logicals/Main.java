@@ -7,7 +7,7 @@ public static void main(String[] args)
 { 
 	Scanner scanner = new
 Scanner(System.in);
-System.out.print("Enter a string with spaces: ");
+System.out.print("enter with string space : ");
 String input = scanner.nextLine();
 String stringWithoutSpaces = removeSpaces(input); System.out.println("Stringwithout spaces: " +
 stringWithoutSpaces);
