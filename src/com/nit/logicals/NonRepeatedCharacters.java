@@ -9,7 +9,7 @@ public class NonRepeatedCharacters
     public static void main(String[] args) 
     {
 
-        String str = "April";
+        String str = "Monday";
 
         Map<Character, Integer> map = new HashMap<>();
 
@@ -19,7 +19,7 @@ public class NonRepeatedCharacters
             map.put(ch, map.getOrDefault(ch, 0) + 1);
         }
 
-        System.out.println("non-repeated characters:");
+        System.out.println("The Non Repeaters characters are :");
 
         for (char ch : str.toCharArray()) 
         {
