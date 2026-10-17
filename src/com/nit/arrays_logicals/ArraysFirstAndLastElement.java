@@ -18,8 +18,8 @@ if (!arrayList.isEmpty())
 {
 String firstElement = arrayList.get(0);
 String lastElement = arrayList.get(arrayList.size() - 1);
-System.out.println("First element: " + firstElement);
-System.out.println("Last element: " + lastElement);
+System.out.println("The First element is : " + firstElement);
+System.out.println("The Last element is  : " + lastElement);
 } 
 else
 {

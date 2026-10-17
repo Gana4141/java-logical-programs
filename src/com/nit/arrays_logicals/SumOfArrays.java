@@ -4,7 +4,7 @@ public class  SumOfArrays
 {
 public static void main(String[] args) 
 {
-String[] array = {"5", "2", "9", "a", "1", "6", "#", "3","80","500"};
+String[] array = {"5", "2", "9", "Java", "1", "6", "#", "3","80","500"};
 
 int sum = sumIntegers(array);
 System.out.println("Sum of integers in the array: " + sum);
