@@ -33,8 +33,8 @@ public class HashCode
     public static void main(String[] args)
     {
 
-        HashCode student1 = new HashCode(1, "Alice");
-        HashCode student2 = new HashCode(2, "Bob");
+        HashCode student1 = new HashCode(1, "King");
+        HashCode student2 = new HashCode(2, "Krish");
         HashCode student3 = new HashCode(1, "Alice");
 
         
