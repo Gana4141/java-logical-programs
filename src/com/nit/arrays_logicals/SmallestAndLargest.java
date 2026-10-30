@@ -11,7 +11,7 @@ System.out.println("Largest element: " + result[1]);
 }
 public static int[] findLargestAndSmallest(int[] array)
 { if (array == null || array.length == 0) {
-throw new IllegalArgumentException("Array must not be null or empty");
+throw new IllegalArgumentException("arrays not allows null or empty");
 }
 int smallest = array[0];
 int largest = array[0];
