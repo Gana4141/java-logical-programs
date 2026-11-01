@@ -1,50 +1,44 @@
 package com.nit.java_8_features_pro;
 
-
 import java.util.HashSet;
 
-public class LongestSubString
-{
+public class LongestSubString {
 
-    public static void main(String[] args)
-    {
+	public static void main(String[] args) {
 
-        String str = "Data ScienceDataDtaa";
+		String str = "Data ScienceDataDtaa";
 
-        HashSet<Character> set = new HashSet<>();
+		HashSet<Character> set = new HashSet<>();
 
-        int left = 0;
-        int maxLength = 0;
-        int start = 0;
+		int left = 0;
+		int maxLength = 0;
+		int start = 0;
 
-        for (int right = 0; right < str.length(); right++) 
-        {
+		for (int right = 0; right < str.length(); right++) {
 
-            char ch = str.charAt(right);
+			char ch = str.charAt(right);
 
-            while (set.contains(ch)) 
-            {
+			while (set.contains(ch)) {
 
-                set.remove(str.charAt(left));
+				set.remove(str.charAt(left));
 
-                left++;
-            }
+				left++;
+			}
 
-            set.add(ch);
+			set.add(ch);
 
-            if (right - left + 1 > maxLength) 
-            {
+			if (right - left + 1 > maxLength) {
 
-                maxLength = right - left + 1;
+				maxLength = right - left + 1;
 
-                start = left;
-            }
-        }
+				start = left;
+			}
+		}
 
-        String result = str.substring(start, start + maxLength);
+		String result = str.substring(start, start + maxLength);
 
-        System.out.println("Longest Substring: " + result);
+		System.out.println("Longest Substring: " + result);
 
-        System.out.println("Length: " + maxLength);
-    }
+		System.out.println("Length: " + maxLength);
+	}
 }
