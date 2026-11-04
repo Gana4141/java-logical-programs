@@ -9,8 +9,8 @@ public class Anagram
     public static void main(String[] args)
     {
 
-        String s1 = "listen";
-        String s2 = "silent";
+        String s1 = "Voilent";
+        String s2 = "dull";
 
         
         char arr1[] = s1.toCharArray();
